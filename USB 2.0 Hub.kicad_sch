@@ -1361,6 +1361,12 @@
 		(uuid "01765d23-edf7-44f5-906b-22b6fa622521")
 	)
 	(junction
+		(at 135.89 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1398f41c-c152-4c15-9e3b-8ff53e4beacb")
+	)
+	(junction
 		(at 148.59 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1383,6 +1389,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a571c773-54de-4892-9416-382d29099091")
+	)
+	(junction
+		(at 135.89 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb339d67-e2d5-4ceb-b8b5-8d039881e2c8")
 	)
 	(no_connect
 		(at 158.75 113.03)
@@ -1884,6 +1896,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 48.26) (xy 135.89 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df89041d-02fd-47b5-a2fa-fef671d1c880")
+	)
+	(wire
+		(pts
 			(xy 142.24 69.85) (xy 142.24 71.12)
 		)
 		(stroke
@@ -1891,6 +1913,16 @@
 			(type default)
 		)
 		(uuid "dfd6d5e4-9653-42e8-b080-a4ecc3f3e767")
+	)
+	(wire
+		(pts
+			(xy 123.19 40.64) (xy 135.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e652c0d9-9aa3-4a29-9c8a-95f7c8423af3")
 	)
 	(wire
 		(pts
@@ -3519,6 +3551,76 @@
 			(project "USB 2.0 Hub"
 				(path "/bba16163-f1ed-4181-bc2f-62660e1b784a"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72078d30-7d03-40ad-bb8d-a54eb7c74667")
+		(property "Reference" "C8"
+			(at 127 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 127 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 124.1552 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f059fa49-ddc8-45e8-9ccd-67177033a161")
+		)
+		(pin "2"
+			(uuid "0f80c68b-0815-420d-8de1-194fc98718c3")
+		)
+		(instances
+			(project "USB 2.0 Hub"
+				(path "/bba16163-f1ed-4181-bc2f-62660e1b784a"
+					(reference "C8")
 					(unit 1)
 				)
 			)

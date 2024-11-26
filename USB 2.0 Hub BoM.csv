@@ -1,0 +1,16 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"U1,U4,U2";"SOT-23-6";3;"SRV05-4";;;
+2;"J5,J3,J2,J4";"USB_A_Stewart_SS-52100-001_Horizontal";4;"USB_A";;;
+3;"Y1";"Crystal_HC49-U_Vertical";1;"12MHz";;;
+4;"R11,R6,R8";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";3;"470Ω";;;
+5;"R2,R1";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"5.1kΩ";;;
+6;"R4,R7,R3,R10";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";4;"100kΩ";;;
+7;"C1,C6,C3,C7";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";4;"0.1uF";;;
+8;"C5,C2,C4";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";3;"10uF";;;
+9;"J1";"USB_C_Receptacle_G-Switch_GT-USB-7010ASV";1;"USB_C_Receptacle_USB2.0_16P";;;
+10;"C8";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";1;"100nF";;;
+11;"R5";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"2.7kΩ";;;
+12;"D1,D3,D4,D5";"LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder";4;"LED_G";;;
+13;"U3";"SSOP-28_3.9x9.9mm_P0.635mm";1;"FE1.1s";;;
+14;"D2";"LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"LED_R";;;
+15;"R9";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"47kΩ";;;
